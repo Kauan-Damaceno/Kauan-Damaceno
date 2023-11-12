@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+/* ESTILIZANDO O HEADER DA PAGINA */
+
+
+
+.logoApple {
+    width: 14.5px;
+}
+
+.nav-icon {
+    display: flex;
+    gap: 45px;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar {
+    font-size: 12px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+/* ESTILIZANDO A MAIAN DA PAGINA */
+
+.description-phone {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px 0 80px;
+}
+
+.title-iphone {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.description-iphone {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.tape {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    background-color: #f5f5f7;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 25px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+
+.tape p {
+    font-size: 12px;
+}
+
+.symbol-more p{
+    margin-top: 13px;
+    border: 1px solid #8b8b8b;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 1.2px;
+}
+
+.tape:hover .symbol-more p{
+    background-color: black;
+    color: white;
+}
+
+.container-imgage-phone {
+    display: flex;
+    margin: 50px 80px 0 80px;
+}
+
+section {
+    width: 800px;
+    height: 420px;
+    background-color: #f5f5f7;
+    border-radius: 25px;
+    margin-right: 70px;
+}
+
+.image-phone {
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+aside {
+    margin-top: 130px;
+}
+
+.title-aside {
+    margin-bottom: 40px;
+}
+
+span {
+    color: #86868b;
+    font-weight: 500;
+}
+
+.colorHoverElement {
+    color: black;
+    font-weight: 400;
+}
+
+.title-aside {
+    font-weight: 400;
+}
+
+.description-aside {
+    font-weight: 400;
+}
+
+
+.list-color {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.list-color li {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+.phone-img{
+    width: 600px;
+    transition: 1s;
+}
+
+#verde{
+    background-color: #455644;
+    border: 2px solid white;
+    transition: 1s;
+}
+
+#rosa{
+    background-color: #fbe2dd;
+    border: 2px solid white; 
+    transition: 1s;
+}
+
+.ativo {
+border: 2px solid #0272e3;
+border-radius: 50%;
+}
+
+.opaco {
+    opacity: 0.2;
+}
+
+
+
+
